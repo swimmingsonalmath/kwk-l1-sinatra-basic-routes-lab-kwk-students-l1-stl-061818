@@ -22,10 +22,10 @@ class App < Sinatra::Base
   get'/name'do 
     "My name is Sonali:)"
   end 
-get'/home'do
+get'/hometown'do
   "My hometown is St.Louis"
 end
-get'/song'do
+get'/favorite-song'do
   "My favorite song is Bloom ig"
 end 
 
