@@ -1,4 +1,30 @@
-require_relative 'config/environment'
+# require 'sinatra'
 
-class App < Sinatra::Base
+# class App < Sinatra::Base
+
+# get '/' do    #making route to a page
+#   "I love bok choy!"     #dont need to put puts can just put a string
+#   end 
+
+# get'/nutritious'do 
+#   "It has a lot of fiber and protein and barely any fat"
+# end 
+
+
+
+# end
+
+require 'sinatra'
+class App < Sinatra::Base 
+  get'/name'do 
+    "My name is Sonali:)"
+  end 
+get'/home'do
+  "My hometown is St.Louis"
 end
+get'/song'do
+  "My favorite song is Bloom ig"
+end 
+
+
+end 
